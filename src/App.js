@@ -18,11 +18,10 @@ class App extends Component {
 handleNumberClick(num) {
   var numPressed = this.state.numsPressed;
   this.setState({ numsPressed: numPressed += num })
-  console.log(this.state.numsPressed)
 }
 
 handleMathFunction(ftn) {
-  console.log(ftn)
+  
 }
 
 changeSign() {
